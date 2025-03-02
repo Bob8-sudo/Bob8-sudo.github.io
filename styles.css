@@ -1,0 +1,86 @@
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+        transform: translatey(200%); 	
+        text-shadow: -16px 5px 5px rgba(0, 0, 0, 0.82);
+	}
+	100% {
+		opacity: 1;
+        transform: translatey(0%); 
+        text-shadow: 4px 5px 5px rgba(0, 0, 0, 0.82);
+	}
+}
+@keyframes fadeInOpacityCirlce {
+	0% {
+        filter: drop-shadow( -16px 5px 5px rgba(0, 0, 0, 0.82));
+		opacity: 0;
+        transform: translatey(100%); 	
+	}
+	100% {
+        filter: drop-shadow( 4px 5px 5px rgba(0, 0, 0, 0.82));
+		opacity: 1;
+        transform: translatey(0%); 
+	}
+}
+
+
+body {
+    background-color: #262626;
+}
+h1 {
+    color: rgb(196, 196, 196);
+    font-size: 50px;
+    text-shadow: 4px 5px 5px rgba(0, 0, 0, 0.82);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in-out;
+	animation-duration: 1s;
+}
+
+h2 {
+    color: rgb(196, 196, 196);
+    font-size: 30px;
+    text-shadow: 4px 5px 5px rgba(0, 0, 0, 0.82);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in-out;
+	animation-duration: 1s;
+}
+
+p{
+    color: rgb(196, 196, 196);
+    font-size: 20px;
+    text-shadow: 4px 5px 5px rgba(0, 0, 0, 0.82);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in-out;
+	animation-duration: 1s;
+}
+a {
+    color:aqua;
+    font-size: 20px;
+    text-shadow: 4px 5px 5px rgba(0, 0, 0, 0.82);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in-out;
+	animation-duration: 1s;
+}
+
+img {
+    filter: drop-shadow( 4px 5px 5px rgba(0, 0, 0, 0.82));
+    border-radius: 20%;
+    opacity: 1;
+	animation-name: fadeInOpacityCirlce;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in-out;
+	animation-duration: 1s;
+}
